@@ -63,7 +63,12 @@ credit Card ML/
 ├── requirements.txt
 └── README.md
 
-## 🔍 Machine Learning Approach
+##  Machine Learning Approach
+
+## Exploratory Data Analysis
+
+### Class Distribution
+![Fraud vs Normal Transactions](images/class_distribution.png)
 
 ### 1 Data Preprocessing
 - Removed target variable (`Class`) from features
@@ -86,6 +91,13 @@ Evaluated models using:
 - Precision–Recall Curve
 
 > Recall was prioritized to minimize missed fraud cases.
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### ROC Curve
+![ROC Curve](images/roc_curve.png)
+
 
 ### 5 Threshold Optimization
 - Adjusted prediction thresholds to improve fraud detection performance
